@@ -1,4 +1,5 @@
 import js from '@eslint/js';
+import pluginQuery from '@tanstack/eslint-plugin-query';
 import { defineConfig } from 'eslint/config';
 import eslintConfigPrettier from 'eslint-config-prettier/flat';
 import pluginImport from 'eslint-plugin-import';
@@ -24,6 +25,7 @@ export default defineConfig([
   pluginJsxA11y.flatConfigs.recommended,
   pluginHooks.configs['recommended-latest'],
   pluginImport.flatConfigs.recommended,
+  ...pluginQuery.configs['flat/recommended'],
   eslintConfigPrettier,
 
   {

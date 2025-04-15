@@ -1,1 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Poppins', sans-serif;
+
+  --color-*: initial;
+  --color-text-50: #888984;
+  --color-text-100: #70716b;
+  --color-text-200: #585952;
+  --color-text-300: #404139;
+  --color-text-400: #282a21;
+  --color-text-500: #101208;
+
+  --color-background-500: #fbfcf8;
+  --color-background-600: #e2e3df;
+  --color-background-700: #c9cac6;
+
+  --color-primary-300: #c5da58;
+  --color-primary-400: #bdd643;
+  --color-primary-500: #b6d12e;
+  --color-primary-600: #a4bc29;
+  --color-primary-700: #92a725;
+
+  --color-secondary-300: #8ba7a6;
+  --color-secondary-400: #7d9c9b;
+  --color-secondary-500: #6e9190;
+  --color-secondary-600: #638382;
+  --color-secondary-700: #587473;
+
+  --color-accent-300: #8b99a7;
+  --color-accent-400: #7d8c9c;
+  --color-accent-500: #6e7f91;
+  --color-accent-600: #637283;
+  --color-accent-700: #586674;
+
+  --color-success-400: #b6eab6;
+  --color-success-500: #9ce49c;
+  --color-success-600: #7cd07c;
+
+  --color-warning-400: #ead37a;
+  --color-warning-500: #e4c657;
+  --color-warning-600: #d0a929;
+
+  --color-error-400: #eab1b1;
+  --color-error-500: #e49c9c;
+  --color-error-600: #d07c7c;
+
+  --color-info-400: #b1cdf6;
+  --color-info-500: #9cc0f4;
+  --color-info-600: #7ca7e8;
+}
